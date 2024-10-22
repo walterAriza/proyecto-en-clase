@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <div class="contenedor">
+<!--En este espacio va la barra de navegación-->
+    <div class="barraNav">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+           <div class="barralogo">
+              <div class="logoprincipal" href="#">
+                <img class="img1" src="Logo naranja.png" alt="Logo Naranja">
+                <div class="logosecundario">
+                    <img class="img2" src="Logo blanco.png" alt="Logo Blanco">
+                </div>
+              </div>
+                 <div class="botones">        
+                <li class="nav-item dropdown">
+                  <a class="desplegable dropdown-toggle" href="#" id="navbarExplorar" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Explorar
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarExplorar">
+                    <div class="caja-menu">
+                      <div class="menu-1">
+                        <li><a class="dropdown-item narj" href="#">Popular</a></li>
+                        <li><a class="dropdown-item" href="#">Novedades</a></li>
+                        <li><a class="dropdown-item" href="#">Alfabético</a></li>
+                        <li><a class="dropdown-item" href="#">Temporada de Simulcast</a></li>
+                        <li><a class="dropdown-item" href="#">Calendario de lanzamientos</a></li>
+                        <li><a class="dropdown-item" href="#">Videos musicales y conciertos</a></li>
+                    </div>
+                    <div class="menu-2">
+                        <span class="gen">GÉNEROS</span>
+                        <div class="sub-menu">
+                          <li><a class="dropdown-item" href="#">Acción</a></li>
+                          <li><a class="dropdown-item" href="#">Aventura</a></li>
+                          <li><a class="dropdown-item" href="#">Comedia</a></li>
+                          <li><a class="dropdown-item" href="#">Drama</a></li>
+                          <li><a class="dropdown-item" href="#">Fantasía</a></li>
+                          <li><a class="dropdown-item" href="#">Musical</a></li>
+                          <li><a class="dropdown-item" href="#">Romance</a></li>
+                          <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
+                          <li><a class="dropdown-item" href="#">Seinen</a></li>
+                          <li><a class="dropdown-item" href="#">Shoujo</a></li>
+                          <li><a class="dropdown-item" href="#">Shounen</a></li>
+                          <li><a class="dropdown-item" href="#">Recuentos de la Vida</a></li>
+                          <li><a class="dropdown-item" href="#">Deportes</a></li>
+                          <li><a class="dropdown-item" href="#">Sobrenatural</a></li>
+                          <li><a class="dropdown-item" href="#">Thriller</a></li>
+                      </div>
+                    </div>
+                  </div>
+                  </ul>
+                </li>
+                  <li class="nav-item">
+                    <a class="botonfijo active" aria-current="page" href="#">Juegos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="desplegable dropdown-toggle" href="#" id="navbarNoticias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Noticias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarNoticias">
+                      <div class="menu-3">
+                        <li><a class="dropdown-item" href="#">Todas las noticias</a></li>
+                        <li><a class="dropdown-item" href="#">Anime Awards</a></li>
+                        <li><a class="dropdown-item" href="#">Eventos y experiencias</a></li>
+                     </div>
+                    </ul>
+                  </li>
+                </div>
+            </div>
+            <div class="barraiconos">
+                <div class="premiumbox">
+                  <div class="color-hover">
+                    <img class="corona" src="corona.png" alt="">
+                    <div class="pruebagratuita">
+                        <span class="probargratis">PROBAR GRATIS</span>
+                        <span>PREMIUM</SPAn>
+                    </div>
+                  </div>
+                </div>
+                <div class="iconosnav">
+                    <div class="icon-hover"><span class="iconoslat"><a href="search.html"><img class="iconoim" src="LupaBlanca.png" alt=""></a></span></div>
+                    <div class="icon-hover"><span class="iconoslat"><img class="iconoim" src="fav-blanco.png" alt=""></span></div>
+                    <div class="icon-hover"><span class="iconoslat"><img class="iconoim" src="Login.png" alt=""></span></div>
+                </div>
+            </div>
+          </nav>
+    </div>
+
+<!--En este espacio va el carousel principal-->
+    <div class="contenedorcarousel">
+      
+        <div id="carouselfondo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="0" class="active"   aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="3" class="active"   aria-current="true" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="4" class="active"   aria-current="true" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselfondo" data-bs-slide-to="5" class="active"   aria-current="true" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="over-dansel.png" class="d-block w-100" alt="slider 1">
+              <div class="degradado"></div>
+              <div class="carousel-caption">
+                <img class="titunombre" src="DanselNombre.png" alt="Titulo-Imagen">
+                <div class="edad">
+                  <p class="cuadroedad">14+</p>
+                  <p class="subt">Subtitulado</p>
+                </div>
+                <p class="parraf">Some representative placeholder content for the first slide.</p>
+                <div class="botones">
+                  <button class="start">COMENZAR A VER</button>
+                  <img class="favicon" src="favorito.png" alt="Favoritos">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="delicosN.png" class="d-block w-100" alt="slider 2">
+              <div class="degradado"></div>
+              <div class="carousel-caption">
+                <img class="titunombre" src="DelicosNombre.jpg" alt="Titulo-Imagen">
+                <div class="edad">
+                  <p class="cuadroedad">14+</p>
+                  <p class="subt">Subtitulado</p>
+                </div>
+                <p class="parraf">Some representative placeholder content for the first slide.</p>
+                <div class="botones">
+                  <button class="start">COMENZAR A VER</button>
+                  <img class="favicon" src="favorito.png" alt="Favoritos">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="OnePiece.png" class="d-block w-100" alt="slider 3">
+              <div class="degradado"></div>
+              <div class="carousel-caption">
+                <img class="titunombre" src="OnePieceName.png" alt="Titulo-Imagen">
+                <div class="edad">
+                  <p class="cuadroedad">14+</p>
+                  <p class="subt">Subtitulado</p>
+                </div>
+                <p class="parraf">Some representative placeholder content for the first slide.</p>
+                <div class="botones">
+                  <button class="start">COMENZAR A VER</button>
+                  <img class="favicon" src="favorito.png" alt="Favoritos">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="AcroTrip.png" class="d-block w-100" alt="slider 4">
+                <div class="degradado"></div>
+                <div class="carousel-caption">
+                    <img class="titunombre" src="" alt="Titulo-Imagen">
+                  <div class="edad">
+                    <p class="cuadroedad">14+</p>
+                    <p class="subt">Subtitulado</p>
+                  </div>
+                  <p class="parraf">Some representative placeholder content for the first slide.</p>
+                  <div class="botones">
+                    <button class="start">COMENZAR A VER</button>
+                    <img class="favicon" src="favorito.png" alt="Favoritos">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="DanDaDan.png" class="d-block w-100" alt="slider 5">
+                <div class="degradado"></div>
+                <div class="carousel-caption">
+                  <img class="titunombre" src="DanDaName.png" alt="Titulo-Imagen">
+                  <div class="edad">
+                    <p class="cuadroedad">14+</p>
+                    <p class="subt">Subtitulado</p>
+                  </div>
+                  <p class="parraf">Some representative placeholder content for the first slide.</p>
+                  <div class="botones">
+                    <button class="start">COMENZAR A VER</button>
+                    <img class="favicon" src="favorito.png" alt="Favoritos">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="ReZero.png" class="d-block w-100" alt="slider 6">
+                <div class="degradado"></div>
+                <div class="carousel-caption">
+                  <img class="titunombre" src="RezeroName.png" alt="Titulo-Imagen">
+                  <div class="edad">
+                    <p class="cuadroedad">14+</p>
+                    <p class="subt">Subtitulado</p>
+                  </div>
+                  <p class="parraf">Some representative placeholder content for the first slide.</p>
+                  <div class="botones">
+                    <button class="start">COMENZAR A VER</button>
+                    <img class="favicon" src="favorito.png" alt="Favoritos">
+                  </div>
+                </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselfondo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselfondo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </div>
+<!--En este espacio colocamos el segundo carrusel-->
+    <div class="segundocarrusel">
+        <div class="animesgratis">
+            <span class="titulo">¡Anime que puedes mirar gratis!</span>
+            <span class="descrip">¡Disfruta aquí de algunos de nuestros títulos más populares!</span>
+        </div>
+        <div class="sliders">
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="itachi.jpg" alt="slider 1">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Naruto Shippuden</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Naruto Shippuden</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="1.jpg" alt="slider 2">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Dragon Ball Daima</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Dragon Ball Daima</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">4.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(55.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <p class="parraf">Una nueva aventura espera a los guerreros Z</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="2.jpg" alt="slider 3">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Damon Slayer</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Damon Slayer</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="3.png" alt="slider 4">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Nanatsu no Taizai</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Nanatsu no Taizai</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="4.png" alt="slider 5">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Ao no Exorcist</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Ao no Exorcist</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="5.jpg" alt="slider 6">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Seirei Gensouki</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Seirei Gensouki</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="6.png" alt="slider 7">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Sword art online</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Sword art online</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="7.jpg" alt="slider 8">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Shangri-La Frontier</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Shangri-La Frontier</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="8.jpg" alt="slider 9">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">One Peace</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">One Peace</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-caja">
+            <div class="imagen-tarjeta">
+              <div class="imgcarousel">
+                <img class="img-car" src="9.png" alt="slider 10">
+              </div>
+              <div class="info-tarjeta">
+                <span class="titulo-tarjeta">Bleach</span>
+                <span class="subt">Sub | Dob</span>
+              </div>
+            </div>
+            <div class="tarjeta-carousel">
+              <h1 class="titulo-tarjeta">Bleach</h1>
+              <div class="puntuacion-tarjeta">
+                <span class="puntos">2.8</span>
+                <img class="icono-estrella" src="estrella.png" alt="estrella-b">
+                <span class="puntos">(4.4K)</span>
+              </div>
+              <div class="infogral">
+                <span class="span-tarjeta">Temporada 1</span>
+                <span class="span-tarjeta">Temporada 2</span>
+                <p class="parraf">Naruto regresa a Konoha después de su largo viaje y se encuentra con Sakura, Kakashi y otros compañeros.</p>
+            </div>
+              <div class="botones-tarjetas">
+                <img class="iconos-tarjeta" src="play.png" alt="play">
+                <img class="iconos-tarjeta" src="favorito.png" alt="Fav">
+                <img class="iconos-tarjeta" src="cruz.png" alt="cruz">
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <button class="carousel-control-prev" type="button" onclick="handleClick('previous')">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" onclick="handleClick('next')">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+  
+
+
+
+</div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

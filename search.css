@@ -1,0 +1,293 @@
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+/* Este espacio es para los estilos de la barra de navegación */
+
+ /*Logo*/
+ .logoprincipal{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    position: absolute;
+    width: 100%;
+}
+
+.img2{
+    width: 100%;
+}
+.logosecundario{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.logoprincipal:hover > .logosecundario{
+    opacity: 1;
+    visibility: visible;
+}
+
+.logoprincipal:hover > .img1{
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*Estilos de Premium - Barra de navegación*/
+
+.color-hover{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ .premiumbox:hover > .color-hover {
+  background-color: #141519;
+  height: 100%;
+  display: flex;
+  gap:5px;
+} 
+
+.icon-hover:hover > .iconoslat{
+  background-color: #141519;
+  height: 100%;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.pruebagratuita{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    font-size: 10px;
+    width: 90px;
+}
+
+.probargratis{
+    color: orange;
+}
+
+.corona{
+    width: 30px;
+    height: 18px;
+}
+
+.iconosnav{
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.iconoim{
+    width: 25px;
+}
+
+.icon-hover{
+  height: 100%;
+  align-content: center;
+  width: 57px;
+  text-align: center;
+}
+
+.iconoslat{
+    display: block;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*Generalidades de la barra de navegación*/
+
+.container-fluid{
+    height: 58px;
+    width: 100%;
+}
+.navbar{
+    height: 58px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barralogo{
+    width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    
+}
+
+.barraiconos{
+    display: flex;
+    height: 100%;
+    width: 380px;
+}
+
+.botones{
+    display: flex;
+}
+
+.nav-item{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.desplegable {
+    color: white;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item:hover > .desplegable{
+  background-color: #141519;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item:hover > .botonfijo{
+  background-color: #141519;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu{
+  padding: 0;
+  background-color: #141519;
+}
+
+.caja-menu{
+  display: flex;
+  background-color: #141519;
+  color: white;
+  padding: 10px;
+}
+
+.menu-1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: solid 1.5px #3f3f3f;
+}
+
+.menu-2{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-3{
+  background-color: #141519;
+  padding: 10px;
+  width: 300px;
+}
+
+.sub-menu{
+  columns: 3;
+  color: white;
+}
+
+.gen{
+  font-size: 13px;
+}
+
+.dropdown-item{
+  color: white;
+  font-size: 14px;
+}
+
+.narj{
+  color: #ff640a;
+}
+
+
+.botonfijo{
+    width: 80px;
+    color: white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+}
+
+.baner{
+    background-color: #141519;
+    margin-top: 56px;
+    color: white;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 880px;
+    background: none;
+    border: none;
+    border-bottom: solid 2px grey;
+    outline: none;
+    font-size: 36px;
+}
+
+.caja_search:hover > .input{
+    width: 880px;
+    background: none;
+    border: none;
+    border-bottom: solid 2px #ff640a;
+    outline: none;
+    font-size: 36px;
+}
+
+.informacion{
+    background: linear-gradient( rgba(0, 0, 0, 0),#132127);
+    height: 450px;
+}
+
+.info-conte{
+    display: flex;
+    gap:80px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navegacion h3{
+    font-size: 16px;
+    color: white;
+}
+
+.navegacion span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(190, 190, 190);
+}
